@@ -5,7 +5,7 @@
     <img alt="License: MIT " src="https://img.shields.io/badge/License-MIT -yellow.svg" />
   </a>
   <a href="https://twitter.com/MohammedTouili " target="_blank">
-    <img alt="Twitter: MohammedTouili " src="https://img.shields.io/twitter/follow/MohammedTouili .svg?style=social" />
+    <img alt="Twitter: MohammedTouili " src="https://img.shields.io/twitter/follow/MohammedTouili.svg?style=social" />
   </a>
 </p>
 
@@ -24,8 +24,8 @@ Before running the code you need both Slack Api Key and News Api Key To get thes
 - [NEWSAPI](https://newsapi.org/account)
 
 ## ⭐️ Running the code
-```
 Inside The project Repository run the following command:
+```
     rake deploy:run
 ```
 ## ⭐️ Testing the code with RSpec
