@@ -29,8 +29,8 @@ Inside The project Repository run the following command:
     rake deploy:run
 ```
 ## ⭐️ Testing the code with RSpec
-```
 Inside The spec directory run the following command:
+```
 > rspec game_spec.rb
 ```
 ## ⭐️ Bot Instructions
