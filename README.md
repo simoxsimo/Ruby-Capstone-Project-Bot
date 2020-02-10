@@ -11,7 +11,7 @@
 
 ## Description of the project 
 
->The purpose of this project is to implement a Slack bot that search for news articles related to the search query
+>The purpose of this project is to implement a Slack bot that searches for news articles related to the search query
 
 ## Built with
 <ul>
@@ -19,7 +19,7 @@
 </ul>
 
 ## Dev Environment Requirement:
-Before running the code you need both Slack Api Key("config/.slackbot") and News Api Key("config/.news") To get these check the following links:
+Before running the code you need both Slack Api Key ("config/.slackbot") and News Api Key ("config/.news") To get these check the following links:
 - [Slack](https://my.slack.com/services/new/bot)
 - [News API](https://newsapi.org/account)
 
@@ -40,7 +40,10 @@ Inside The spec directory run the following command:
 
 3. "@botname help" for further instructions
 
-![instructions](img/test.gif)
+   ### bot Test
+   
+
+   ![instructions](img/test.gif)
 
 ## Author
 
