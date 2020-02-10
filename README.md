@@ -20,8 +20,8 @@
 
 ## Dev Environment Requirement:
 Before running the code you need both Slack Api Key("config/.slackbot") and News Api Key("config/.news") To get these check the following links:
-- [SLACK](https://my.slack.com/services/new/bot)
-- [NEWSAPI](https://newsapi.org/account)
+- [Slack](https://my.slack.com/services/new/bot)
+- [News API](https://newsapi.org/account)
 
 ## ⭐️ Running the code
 Inside The project Repository run the following command:
