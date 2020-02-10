@@ -4,7 +4,7 @@ require 'uri'
 require 'net/http'
 require 'json'
 require_relative 'http_requests'
-# This class uses HttpR methods to access json file using new params
+# This class uses HttpR methods to search for news articles
 class Search < HttpR
   def self.search_results(search)
     JSON.pretty_generate(JSON.parse(Search.search(search).body)['totalResults'])
