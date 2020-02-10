@@ -4,6 +4,17 @@ require_relative '../config/environment'
 require_relative 'news'
 # This class interact with the user input on slack
 class Bot < SlackRubyBot::Bot
+  help do
+    title 'Ruby News'
+    desc 'This bot search for news articles'
+
+    command 'news' do
+      desc 'Start a search query'
+      long_desc "In case of entring the same search query you will get\n" \
+        'A new article until there is no article left.'
+    end
+  end
+
   command 'news' do |client, data, _match|
     client.say(text: 'What are you searching for?', channel: data.channel)
   end
