@@ -19,7 +19,7 @@
 </ul>
 
 ## Dev Environment Requirement:
-Before running the code you need both Slack Api Key and News Api Key To get these check the following links:
+Before running the code you need both Slack Api Key("config/.slackbot") and News Api Key("config/.news") To get these check the following links:
 - [SLACK](https://my.slack.com/services/new/bot)
 - [NEWSAPI](https://newsapi.org/account)
 
