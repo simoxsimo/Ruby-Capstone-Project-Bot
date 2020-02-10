@@ -7,8 +7,6 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
       zeitwerk (~> 2.2)
-    addressable (2.7.0)
-      public_suffix (>= 2.0.2, < 5.0)
     celluloid (0.17.4)
       celluloid-essentials
       celluloid-extras
@@ -31,35 +29,17 @@ GEM
     celluloid-supervision (0.20.6)
       timers (>= 4.1.1)
     concurrent-ruby (1.1.5)
-    domain_name (0.5.20190701)
-      unf (>= 0.0.5, < 1.0.0)
     faraday (0.17.3)
       multipart-post (>= 1.2, < 3)
     faraday_middleware (0.14.0)
       faraday (>= 0.7.4, < 1.0)
-    ffi (1.12.2)
-    ffi-compiler (1.0.1)
-      ffi (>= 1.0.0)
-      rake
     gli (2.19.0)
     hashie (4.1.0)
-    http (4.3.0)
-      addressable (~> 2.3)
-      http-cookie (~> 1.0)
-      http-form_data (~> 2.2)
-      http-parser (~> 1.2.0)
-    http-cookie (1.0.3)
-      domain_name (~> 0.5)
-    http-form_data (2.2.0)
-    http-parser (1.2.1)
-      ffi-compiler (>= 1.0, < 2.0)
     i18n (1.8.2)
       concurrent-ruby (~> 1.0)
     minitest (5.14.0)
     multipart-post (2.1.1)
     nio4r (2.5.2)
-    public_suffix (4.0.3)
-    rake (13.0.1)
     slack-ruby-bot (0.12.0)
       hashie
       slack-ruby-client (>= 0.14.0)
@@ -74,9 +54,6 @@ GEM
     timers (4.3.0)
     tzinfo (1.2.6)
       thread_safe (~> 0.1)
-    unf (0.1.4)
-      unf_ext
-    unf_ext (0.0.7.6)
     websocket-driver (0.7.1)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.4)
@@ -88,7 +65,6 @@ PLATFORMS
 
 DEPENDENCIES
   celluloid-io
-  http
   slack-ruby-bot
 
 BUNDLED WITH

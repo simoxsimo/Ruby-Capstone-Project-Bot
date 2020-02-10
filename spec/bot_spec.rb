@@ -27,4 +27,9 @@ RSpec.describe Search do
       expect(Search.search('food').class).to eql(Net::HTTPUnauthorized)
     end
   end
+  describe '#search_results' do
+    it 'Return number of results found' do
+      expect(Search.search_results('food').class).to eql(String)
+    end
+  end
 end
