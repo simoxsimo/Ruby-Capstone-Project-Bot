@@ -55,9 +55,10 @@ Inside The project Repository run the following command:
     rake deploy:run
 ```
 ## ⭐️ Testing the code with RSpec
-Inside The spec directory run the following command:
+Inside The spec directory run the following commands:
 ```
-> rspec bot_spec.rb
+> rspec httpr_spec.rb
+> rspec news_spec.rb
 ```
 ## ⭐️ Bot Instructions
 1. Choose/Create a channel on slack
