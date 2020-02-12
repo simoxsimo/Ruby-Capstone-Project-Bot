@@ -7,12 +7,12 @@ require_relative 'http_requests'
 # This class uses HttpR methods to search for news articles
 class Search < HttpR
   def self.search_results(search)
-    JSON.pretty_generate(JSON.parse(Search.search(search).body)['totalResults'])
+    JSON.pretty_generate(JSON.parse(search(search).body)['totalResults'])
   end
   # rubocop: disable Layout/LineLength
 
   def self.return_results(search, ind = 0)
-    JSON.pretty_generate(JSON.parse(Search.search(search).body)['articles'][ind]['url'])
+    JSON.pretty_generate(JSON.parse(search(search).body)['articles'][ind]['url'])
   end
   # rubocop: enable Layout/LineLength
 
@@ -22,4 +22,6 @@ class Search < HttpR
     news.params[:q] = search
     news.response(news.url, news.params)
   end
+
+  private_class_method :search
 end

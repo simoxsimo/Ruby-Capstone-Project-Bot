@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-require '../lib/http_requests'
-require '../lib/news'
+require_relative '../lib/http_requests'
+require_relative '../lib/news'
 
 RSpec.describe HttpR do
   describe '#query' do
