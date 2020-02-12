@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 require_relative '../lib/http_requests'
-require_relative '../lib/news'
 
 RSpec.describe HttpR do
   describe '#query' do
@@ -17,19 +16,6 @@ RSpec.describe HttpR do
       var = HttpR.new('https://www.rubydoc.info/gems/http/0.4.0/URI.encode_www_form',
                       params)
       expect(var.response(var.url, var.params).class).to eql(Net::HTTPOK)
-    end
-  end
-end
-
-RSpec.describe Search do
-  describe '#search' do
-    it 'Generate Net::HTTPResponse object for the given argument' do
-      expect(Search.search('food').class).to eql(Net::HTTPUnauthorized)
-    end
-  end
-  describe '#search_results' do
-    it 'Return number of results found' do
-      expect(Search.search_results('food').class).to eql(String)
     end
   end
 end
